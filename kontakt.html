@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kontakt &ndash; Lesezeichen Buchhandlung Freiburg</title>
+<meta name="description" content="Adresse, Öffnungszeiten und Kontaktformular der Buchhandlung Lesezeichen in Freiburg. Wunschbücher bestellen oder einfach vorbeikommen.">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2f4f3e">
+<link rel="apple-touch-icon" href="/assets/icon-512.png">
+<link rel="icon" href="/assets/icon-512.png">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="brand-mark">L</span>
+      <span class="brand-text">Lesezeichen<small>Buchhandlung Freiburg</small></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <a href="/index.html">Start</a>
+      <a href="/sortiment.html">Sortiment</a>
+      <a href="/veranstaltungen.html">Veranstaltungen</a>
+      <a href="/ueber-uns.html">Über uns</a>
+      <a href="/kontakt.html">Kontakt</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-eyebrow">Kontakt</span>
+      <h1>Kommen Sie vorbei &ndash; oder schreiben Sie uns</h1>
+      <p>Wir freuen uns über jeden Besuch, jede Bestellung und jede Frage rund ums nächste Buch.</p>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="contact-grid">
+        <div>
+          <h2 style="font-family: var(--font-display); font-size: 1.4rem; margin: 0;">So erreichen Sie uns</h2>
+          <ul class="info-list">
+            <li>
+              <span class="icon">A</span>
+              <div><strong>Adresse</strong><span>Gerberau 12, 79098 Freiburg im Breisgau</span></div>
+            </li>
+            <li>
+              <span class="icon">T</span>
+              <div><strong>Telefon</strong><a href="tel:+497611234567">0761 123 45 67</a></div>
+            </li>
+            <li>
+              <span class="icon">E</span>
+              <div><strong>E-Mail</strong><a href="mailto:hallo@lesezeichen-freiburg.de">hallo@lesezeichen-freiburg.de</a></div>
+            </li>
+            <li>
+              <span class="icon">Z</span>
+              <div><strong>Öffnungszeiten</strong><span>Mo&ndash;Fr 9:30&ndash;18:30 Uhr &middot; Sa 9:30&ndash;16:00 Uhr</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form" action="mailto:hallo@lesezeichen-freiburg.de" method="post" enctype="text/plain">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="Name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="E-Mail" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Ihre Nachricht</label>
+            <textarea id="message" name="Nachricht" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Nachricht senden</button>
+          <p class="form-note">Öffnet Ihr E-Mail-Programm mit vorausgefüllter Nachricht an uns.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="footer"></footer>
+<script src="/script.js"></script>
+</body>
+</html>

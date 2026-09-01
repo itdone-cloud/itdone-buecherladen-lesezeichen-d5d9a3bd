@@ -1,0 +1,14 @@
+{
+  "name": "Lesezeichen Buchhandlung Freiburg",
+  "short_name": "Lesezeichen",
+  "description": "Die inhabergeführte Buchhandlung im Freiburger Stühlinger.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf6ee",
+  "theme_color": "#2f4f3e",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
